@@ -1,0 +1,7 @@
+---
+services:
+  email-bot:
+    image: email
+    build:
+      context: .
+      dockerfile: Dockerfile
